@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "node": "^20.15.0"
+  },
+  "name": "expressshopifyexample",
+  "version": "1.0.0",
+  "description": "Example Node and Express Project utilizing Shopifies GraphQl Services",
+  "main": "index_shopify.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Seamans",
+  "license": "ISC"
+}
