@@ -33,6 +33,6 @@ app.get('/', (req, res) => {
     res.send("WORKS");
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+app.listen(global.config.node.port, () => {
+    console.log(`Example app listening on port ${global.config.node.port}`);
 });
