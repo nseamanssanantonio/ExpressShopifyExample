@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@shopify/shopify-api": "^11.0.1",
     "express": "^4.19.2",
     "node": "^20.15.0"
   },
@@ -7,7 +8,6 @@
   "version": "1.0.0",
   "description": "Example Node and Express Project utilizing Shopifies GraphQl Services",
   "main": "index_shopify.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
